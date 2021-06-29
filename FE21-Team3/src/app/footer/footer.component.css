@@ -1,0 +1,30 @@
+.footer {
+  color: var(--black);
+}
+
+.footer .links ul {
+  list-style-type: none;
+}
+.footer .links li a {
+  color: var(--black);
+  transition: color 0.2s;
+}
+.footer .links li a:hover {
+  text-decoration: none;
+  color: var(--white);
+}
+/* #shadow {
+  text-shadow: 0.5px 0.5px 3px var(--light-grey);
+} */
+#background {
+  background: rgb(172, 172, 172);
+  background: linear-gradient(
+    180deg,
+    rgba(172, 172, 172, 1) 0%,
+    rgba(140, 20, 30, 1) 100%
+  );
+}
+#website {
+  text-decoration: none;
+  color: var(--black);
+}

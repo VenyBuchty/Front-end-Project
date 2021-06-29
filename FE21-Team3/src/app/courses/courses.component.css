@@ -1,0 +1,64 @@
+.container-fluid {
+  background-color: var(--light-grey);
+}
+
+h2 {
+  color: var(--mid-red);
+  font-weight: 700;
+  text-shadow: 0.5px 0.5px 2px var(--light-grey);
+}
+
+h3 {
+  color: var(--grey);
+  font-weight: 600;
+}
+
+img {
+  border-radius: 15px;
+}
+
+.card-course {
+  border-radius: 15px;
+}
+
+.wavesUp {
+  position: relative;
+  top: 1px;
+}
+
+.wavesDown {
+  position: relative;
+}
+
+.btn-apply {
+  background-color: var(--mid-red);
+  border: none;
+  width: 6rem;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px var(--light-grey);
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.btn-apply:hover {
+  background-color: var(--btn-hover);
+  color: var(--white);
+}
+
+.btn-courses {
+  width: 10rem;
+  margin: 1rem 0;
+  padding: 0.8rem 0;
+  background-color: var(--mid-red);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px var(--light-grey);
+}
+
+.btn-courses:hover {
+  background-color: var(--white);
+}
+.card-text {
+  text-align: justify;
+  font-style: italic;
+}

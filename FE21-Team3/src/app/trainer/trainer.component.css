@@ -1,0 +1,47 @@
+h1 {
+  color: var(--black);
+  text-shadow: 0.5px 0.5px 3px var(--light-grey);
+}
+
+h4 {
+  color: var(--mid-red);
+  font-weight: 700;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  text-shadow: 0.5px 0.5px 3px var(--light-grey);
+}
+
+
+
+.card-body {
+  border: 1px solid var(--extra-light-grey);
+  padding: 0.5rem;
+  border-radius: 0 0 15px 15px;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.team {
+  background-color: var(--light-grey);
+}
+
+.wavesUp {
+  position: relative;
+  top: 0.5rem;
+}
+
+.wavesDown {
+  position: relative;
+  bottom: 2rem;
+}
+
+a {
+  background-color: var(--mid-red);
+  border: none;
+  width: 10rem;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px var(--light-grey);
+  padding: 0.5rem;
+}

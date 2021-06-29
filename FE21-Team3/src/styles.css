@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --dark-red: #8c141e;
+  --mid-red: #a60303;
+  --light-red: #f20505;
+  --grey: #404040;
+  --light-grey: #acacac;
+  --extra-light-grey: #c5c5c52d;
+  --black: #0d0d0d;
+  --white: #ffffff;
+  --btn-hover: #e70000;
+}
+h1 {
+  
+  text-shadow: 0.5px 0.5px 3px var(--light-grey);
+}
+
+
